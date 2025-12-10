@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Builds on python2.X and python3
 # $Id: setup.py,v 1.2 2002/01/08 07:13:21 jgg Exp $
 import glob
 import os
@@ -143,6 +142,7 @@ setup(
     name="python-apt",
     description="Python bindings for APT",
     version=get_version(),
+    python_requires='>3.11',
     author="APT Development Team",
     author_email="deity@lists.debian.org",
     ext_modules=[apt_pkg, apt_inst],

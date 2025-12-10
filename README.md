@@ -46,4 +46,3 @@ To use the annotation with your source code, run:
 ```
 $ MYPYPATH=/usr/lib/python3/dist-packages/apt mypy ./my-program
 ```
-(adjust from python3 to python2.7 if you run there).
